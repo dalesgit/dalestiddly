@@ -309,6 +309,8 @@ Error message and password prompt
 
 <li>$:/tags/EditToolbar</li>
 
+<li>$:/tags/Macro/Toc</li>
+
 <li>$:/tags/PageControls</li>
 
 <li>$:/tags/ViewTemplate</li>
@@ -12595,8 +12597,8 @@ exports.context = contextWidget;
 <div created="20201227115852743" modified="20210102032852248" title="$:/state/tab/moresidebar-1850697562">
 <pre>$:/core/ui/MoreSideBar/Tags</pre>
 </div>
-<div created="20201226195427527" modified="20210108150624419" title="$:/state/tab/sidebar--595412856">
-<pre>Contents</pre>
+<div created="20201226195427527" modified="20210108150931201" title="$:/state/tab/sidebar--595412856">
+<pre>$:/.giffmex/sidebar/advancedconfig</pre>
 </div>
 <div title="$:/status/RequireReloadDueToPluginChange">
 <pre>no</pre>
@@ -12605,6 +12607,9 @@ exports.context = contextWidget;
 <pre></pre>
 </div>
 <div created="20200519141000553" list="$:/.giffmex/Buttons/more-tiddler-edit-actions $:/core/ui/Buttons/delete $:/core/ui/Buttons/cancel $:/core/ui/Buttons/save" modified="20200521145647980" tags="$:/giffmex/bigeditarea $:/giffmex/stroll" title="$:/tags/EditToolbar">
+<pre></pre>
+</div>
+<div created="20210108151217558" modified="20210108151217558" title="$:/tags/Macro/Toc">
 <pre></pre>
 </div>
 <div bag="default" created="20200127183739219" list="$:/core/ui/Buttons/home $:/core/ui/Buttons/close-all $:/core/ui/Buttons/fold-all $:/core/ui/Buttons/unfold-all $:/core/ui/Buttons/permaview $:/core/ui/Buttons/new-tiddler $:/.giffmex/buttons/newnote-datetime $:/core/ui/Buttons/new-journal $:/core/ui/Buttons/new-image $:/core/ui/Buttons/import $:/core/ui/Buttons/export-page $:/core/ui/Buttons/control-panel $:/core/ui/Buttons/advanced-search $:/core/ui/Buttons/manager $:/core/ui/Buttons/tag-manager $:/core/ui/Buttons/language $:/core/ui/Buttons/palette $:/core/ui/Buttons/theme $:/core/ui/Buttons/storyview $:/core/ui/Buttons/encryption $:/core/ui/Buttons/timestamp $:/core/ui/Buttons/full-screen $:/core/ui/Buttons/print $:/core/ui/Buttons/save-wiki $:/core/ui/Buttons/refresh $:/core/ui/Buttons/more-page-actions" modified="20200521145814198" revision="0" tags="$:/giffmex/stroll" title="$:/tags/PageControls" type="text/vnd.tiddlywiki">
@@ -12965,12 +12970,15 @@ They had 2 good outdoor eucharists with ca. 40-35. Indoor in Parish Hall began s
 
 Charlotte is just informally continuing as Sr. Warden. Diocesan guidelines prescribe rotating off after a year. But they are aware of the ad hoc plans to continue.</pre>
 </div>
-<div caption="Contents" created="20201226195445155" list-after="$:/core/ui/SideBar/Open" modified="20210108150853936" tags="$:/tags/SideBar TableOfContents" title="TableOfContents">
+<div caption="Contents" created="20201226195445155" list-after="$:/core/ui/SideBar/Open" modified="20210108151217554" tags="$:/tags/SideBar TableOfContents" title="TableOfContents">
 <pre>&lt;div class=&quot;tc-table-of-contents&quot;&gt;
 
 &lt;&lt;toc-selective-expandable 'TableOfContents'&gt;&gt;
 
-&lt;/div&gt;</pre>
+&lt;/div&gt;
+
+\import [tag[$:/tags/Macro/Toc]]
+&lt;&lt;twolevel-toc-expandable tag:&quot;book&quot; exclude:&quot;&quot; stateTiddler:&quot;20200220&quot;&gt;&gt;</pre>
 </div>
 <div created="20201227114859187" modified="20201228140250590" tags="WorkingWithTiddly" title="Tiddly Info">
 <pre>* [[Working with Tiddly]]
